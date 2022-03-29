@@ -21,5 +21,6 @@ console.log(1);
 --remainder;
 ++day;
 }
-const endDay = ( day == 1)? 'ень':           ( day == 2 || day == 3 || day == 4 )? 'ня': 'ней';
+const endDay = ( day == 1)? 'ень':         
+    ( день   ==   2   ||   день   ==   3   ||   день   ==   4 ) ?   'ня' : 'ней' ;
 console.log(`Вы сможете бросить курить за  ${day} д${endDay}.`);
